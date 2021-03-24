@@ -3,7 +3,7 @@ import time
 import argparse
 import pytorch_lightning as pl
 
-from pytorch_lightning.loggers import TensorBoardLogger, WandbLogger
+from pytorch_lightning.loggers import TensorBoardLogger
 from pytorch_lightning.callbacks import ModelCheckpoint
 from torch.utils import data
 
